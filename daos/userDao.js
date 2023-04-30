@@ -101,7 +101,7 @@ exports.UpdateUserSkill = async function (data) {
 
       if (user && skills.length > 0) {
         for (const skill of skills) {
-          skillModels.push({ name: skill, userId });
+          skillModels.push({ name: skill.name, userId });
         }
 
         await sequelize.transaction(async (t) => {
@@ -134,7 +134,7 @@ exports.UpdateUserHobby = async function (data) {
   
         if (user && hobbies.length > 0) {
           for (const hobby of hobbies) {
-            hobbyModels.push({ name: hobby, userId });
+            hobbyModels.push({ name: hobby.name, userId });
           }
   
           await sequelize.transaction(async (t) => {
