@@ -1,0 +1,23 @@
+{
+  "development": {
+    "username": "root",
+    "password": "devguy123",
+    "database": "etiqadb",
+    "host": "mysql",
+    "dialect": "mysql"
+  },
+  "test": {
+    "username": "root",
+    "password": "devguy123",
+    "database": "etiqadb",
+    "host": "mysql",
+    "dialect": "mysql"
+  },
+  "production": {
+    "username": "root",
+    "password": "devguy123",
+    "database": "etiqadb",
+    "host": "mysql",
+    "dialect": "mysql"
+  }
+}

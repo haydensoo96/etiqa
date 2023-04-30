@@ -1,0 +1,1 @@
+docker run --name my-app-container --network my-network -d my-app-image
