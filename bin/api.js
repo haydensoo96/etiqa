@@ -14,10 +14,5 @@ var server = http.createServer(app)
 
 server.listen(port)
 
-app.use(cors({
-    origin: 'http://etiqa-fe.s3-website-ap-southeast-1.amazonaws.com',
-    methods: ['GET', 'PUT', 'POST'],
-    allowedHeaders: ['Content-Type', 'Authorization'],
-  }));
 
 
